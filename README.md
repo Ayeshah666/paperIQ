@@ -48,12 +48,12 @@ PaperIQ is a professional, AI-powered web application that automatically analyze
 ### Installation
 
 1. **Clone the repository**
-```bash
+bash
 git clone https://github.com/yourusername/paperiq.git
 cd paperiq
 
 2. **Create a virtual environment** (recommended)
-```bash
+bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -62,10 +62,10 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 3. **Install dependencies**
-```bash
+bash
 pip install -r requirements.txt
 4. **Install Ollama** (optional - for AI features)
-```bash
+bash
 # Visit https://ollama.ai to download
 # Or use command line (macOS/Linux):
 curl -fsSL https://ollama.ai/install.sh | sh
