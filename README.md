@@ -81,7 +81,7 @@ ollama pull gemma:2b    # 1.5GB, Google's efficient model
 ```bash
 streamlit run app.py
 
-```paperiq/
+paperiq/
 │
 ├── app.py                      # Main Streamlit application (UI & orchestration)
 ├── requirements.txt            # Python dependencies
