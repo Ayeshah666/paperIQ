@@ -61,10 +61,12 @@ venv\Scripts\activate
 ## macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+
 3. **Install dependencies**
 bash
 pip install -r requirements.txt
-4. **Install Ollama** (optional - for AI features)
+
+5. **Install Ollama** (optional - for AI features)
 bash
 ## Visit https://ollama.ai to download
 ## Or use command line (macOS/Linux):
