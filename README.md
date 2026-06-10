@@ -54,11 +54,11 @@ cd paperiq
 
 2. **Create a virtual environment** (recommended)
 bash
-# Windows
+## Windows
 python -m venv venv
 venv\Scripts\activate
 
-# macOS/Linux
+## macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 3. **Install dependencies**
@@ -66,11 +66,11 @@ bash
 pip install -r requirements.txt
 4. **Install Ollama** (optional - for AI features)
 bash
-# Visit https://ollama.ai to download
-# Or use command line (macOS/Linux):
+## Visit https://ollama.ai to download
+## Or use command line (macOS/Linux):
 curl -fsSL https://ollama.ai/install.sh | sh
 
-# Pull a model (choose one based on your system):
+## Pull a model (choose one based on your system):
 ollama pull llama2      # 3.8GB, good all-around performance
 ollama pull mistral     # 4.1GB, faster inference, good accuracy
 ollama pull phi         # 1.5GB, lightweight, runs on any system
