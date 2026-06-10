@@ -80,3 +80,25 @@ ollama pull gemma:2b    # 1.5GB, Google's efficient model
 5. **Run the application**
 ```bash
 streamlit run app.py
+
+```paperiq/
+│
+├── app.py                      # Main Streamlit application (UI & orchestration)
+├── requirements.txt            # Python dependencies
+├── config.py                   # Configuration settings & constants
+│
+├── core/                       # Core analysis modules
+│   ├── __init__.py
+│   ├── parser.py              # PDF parsing & intelligent section detection
+│   ├── metrics.py             # Advanced metrics calculation (readability, statistics)
+│   ├── analyzer.py            # Orchestrates complete analysis pipeline
+│   └── llm_integration.py     # Ollama AI integration & prompt engineering
+│
+├── utils/                      # Utility modules
+│   ├── __init__.py
+│   ├── visualizations.py      # Plotly charts, graphs, and dashboards
+│   └── report_generator.py    # HTML & Markdown report generation
+│
+├── temp/                       # Temporary storage (auto-created, gitignored)
+│
+└── README.md                   # This file
